@@ -1,0 +1,31 @@
+.recipe-list {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.recipe-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.title {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+}
+.pagination {
+  margin: 2px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+}

@@ -1,0 +1,9 @@
+.total_time {
+  font-weight: bold;
+}
+.ingredients {
+  margin: 5px;
+  background-color: rgb(237, 237, 237);
+  padding: 5px;
+  border-radius: 10px;
+}
