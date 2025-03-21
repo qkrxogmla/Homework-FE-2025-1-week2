@@ -29,7 +29,7 @@ const RecipeDetail = () => {
   useEffect(() => {
     fetch(`https://dummyjson.com/recipes/${id}`)
       .then((res) => res.json())
-      .then((data) => setRecipe(data))
+      .then((data) => setRecipe(data as Recipe))
       .catch(() => setError('레시피 정보를 불러오는데 실패했습니다.'));
   }, [id]);
 
